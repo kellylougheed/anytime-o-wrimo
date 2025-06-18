@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Special Elite', georgia;
+}
+
+h1, h2, h3, div {
+  margin: 25px;
+}
+
+p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.progress {
+  margin: 40px 25px;
+}
+
+.progress-bar {
+  margin: 0;
+  background-color: darkgrey;
+}
+
+button, input {
+  border: 2px solid black;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 10px;
+  background-color: white;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #eee;
+}
